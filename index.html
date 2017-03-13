@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    Hello World!
+<body id="index">
+    <nav id="nav" class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand" style="margin: 0px;padding: 0px;"><img src="images/design.png"></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="true">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse in" id="navbar-collapse" aria-expanded="true">
+                <ul class="nav navbar-nav navbar-right" style="margin-top: 0;">
+                    <li class="active"><a href="#header">首页</a></li>
+                    <li class=""><a href="#selfinfo">自我介绍</a></li>
+                    <li><a href="#worksshow">作品展示</a></li>
+                    <li><a href="#contact">联系我</a></li>
+                    <li><a href="#">微博</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="header" class="header">
+        <img src="images/bg-index.png" width="100%" alt="首页banner">
+    </header>
 </body>
 </html>
