@@ -40,3 +40,8 @@ q:before,q:after {
 abbr,acronym { border:0;
 }
 /* index start */
+.header{}
+/* @media (max-width:414px){
+    .navbar-collapse{display:none !important;}
+}
+ */
