@@ -8,13 +8,13 @@ var nav=''+
             '<span class="icon-bar"></span>'+
             '<span class="icon-bar"></span>'+
             '</button>'+
-            '<a class="navbar-brand-img" href="index.html"><img src="images/design.png" width="50" height="50" alt=""></a>'+
-            '<a class="navbar-brand slogn hide-md">自助者,天助之.</a>'+
+            '<a class="navbar-brand-img" href="index.html"><img src="images/design.png" width="100" height="50" alt=""></a>'+
+            // '<a class="navbar-brand slogn hide-md">自助者,天助之.</a>'+
         '</div>'+
         '<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">'+
             '<ul class="nav navbar-nav">'+
-                '<li class="index"><a href="#" target="_self"><i class="icon-home"></i> 首页</a></li>'+
-                '<li class="contact"><a href="#"><i class="icon-phone"></i> 个人简介</a></li>'+
+                '<li class="index"><a href="index.html" target="_self"><i class="icon-home"></i> 首页</a></li>'+
+                '<li class="contact"><a href="#"><i class="icon-phone"></i> 联系方式</a></li>'+
                 '<li class="dropdown project">'+
                     '<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-book"></i> 作品展示 <span class="caret"></span></a>'+
                     '<ul class="dropdown-menu" role="menu">'+
@@ -23,8 +23,8 @@ var nav=''+
                         '<li><a href="#"><i class="icon-book"></i> WAP端</a></li>'+
                     '</ul>'+
                 '</li>'+
-                '<li class="about"><a href="#"><i class="icon-user"></i> 联系方式</a></li>'+
-                '<li class="about"><a href="#"><i class="icon-user"></i> 我的微博</a></li>'+
+                '<li class="about"><a href="#"><i class="icon-user"></i> 个人简介</a></li>'+
+                '<li class="about"><a href="http://weibo.com/u/5126679567/"><i class="icon-user"></i> 我的微博</a></li>'+
             '</ul>'+
         '</div>'+
     '</div>'+
