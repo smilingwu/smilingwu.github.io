@@ -2,7 +2,7 @@ $(function(){
     //滚动条滚动一滚动则头部导航栏悬浮固定
     $(window).scroll(function() {
         var scroll_h=$(window).scrollTop();
-        if(scroll_h>=0){
+        if(scroll_h>=50){
             $('body').addClass('fixed_header');
         }
         else{
