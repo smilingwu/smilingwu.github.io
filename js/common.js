@@ -1,8 +1,9 @@
 $(function(){
     //滚动条滚动一滚动则头部导航栏悬浮固定
+    var $header=$('#header').height();
     $(window).scroll(function() {
         var scroll_h=$(window).scrollTop();
-        if(scroll_h>=50){
+        if(scroll_h>=$header){
             $('body').addClass('fixed_header');
         }
         else{
