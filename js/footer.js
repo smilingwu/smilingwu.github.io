@@ -67,14 +67,14 @@ var footer=''+
     '<div class="container">'+
         '<div class="rol">'+
             '<div class="col-xs-12 col-sm-6 copyright">'+
-                '<p class="">Copyright © 2017.Wu.com All rights reserved.</p>'+
+                '<p class="">Copyright © 2017.HXR.com All rights reserved.</p>'+
             '</div>'+
             '<div class="col-xs-12 col-sm-6">'+
                 '<ul class="list-unstyled">'+
-                    '<li><a href="index.html">Home</a></li>'+
-                    '<li><a href="web.html">Project</a></li>'+
-                    '<li><a href="about.html">About</a></li>'+
-                    '<li><a href="contact.html">Contact</a></li>'+
+                    '<li><a href="#header">Home</a></li>'+
+                    '<li><a href="#works">Works</a></li>'+
+                    '<li><a href="#selfinfo">About</a></li>'+
+                    '<li><a href="#contact">Contact</a></li>'+
                 '</ul>'+
             '</div>'+
         '</div>'+
