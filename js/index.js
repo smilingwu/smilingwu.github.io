@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function(){
 	var headSwiper = new Swiper('.swiper-contain', {
 		onInit: function(swiper) {
 			swiperAnimateCache(swiper); //隐藏动画元素
@@ -12,13 +12,12 @@ $(document).ready(function () {
 		direction: 'horizontal',
 		loop: true,
 		autoplay:5000,
-//		autoplayDisableOnInteraction : false,
+	//		autoplayDisableOnInteraction : false,
 		pagination: '.swiper-pagination',
 		nextButton: '.swiper-button-next',
-    	prevButton: '.swiper-button-prev'
+		prevButton: '.swiper-button-prev'
 	})
-})
-$(function(){
+
 	$(window).scroll(function(){
 		var docTop = $(this).scrollTop();
 		$('.pageitem').each(function(){
