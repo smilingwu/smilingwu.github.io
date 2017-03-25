@@ -58,6 +58,21 @@ var footer=''+
                             '<img src="images/68design.jpg" class="img-circle" alt="网页设计师联盟" title="网页设计师联盟">'+
                         '</a>'+
                     '</li>'+
+                    '<li>'+
+                        '<a href="http://www.imooc.com/">'+
+                            '<img src="images/imooc.jpg" class="img-circle" alt="慕课网" title="慕课网">'+
+                        '</a>'+
+                    '</li>'+
+                    '<li>'+
+                        '<a href="https://www.douban.com/">'+
+                            '<img src="images/douban.jpg" class="img-circle" alt="豆瓣" title="豆瓣">'+
+                        '</a>'+
+                    '</li>'+
+                    '<li>'+
+                        '<a href="https://www.zhihu.com/">'+
+                            '<img src="images/zhihu.jpg" class="img-circle" alt="知乎" title="知乎">'+
+                        '</a>'+
+                    '</li>'+
                 '</ul>'+
             '</div>'+
         '</div>'+
