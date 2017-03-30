@@ -44,3 +44,17 @@ $(function(){
 		window.location.href = "detail/other/other.html";
 	})
 })
+// Interest works
+jQuery(".works_block").hover(function(){
+        $(this).children().stop(false,true);
+        $(this).children().children().stop(false,true);
+        $(this).find(".works_caption").animate({bottom:"-50px"},200);
+        $(this).find(".works_intro").fadeIn();
+        $(this).find(".intro_box").animate({bottom:"40px"},400);
+    },function(){
+        $(this).children().stop(false,true);
+        $(this).children().children().stop(false,true);
+        $(this).find(".works_caption").animate({bottom:"50px"},400);
+        $(this).find(".works_intro").fadeOut();
+        $(this).find(".intro_box").animate({bottom:"-40px"},400);
+    });
