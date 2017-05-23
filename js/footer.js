@@ -73,6 +73,11 @@ var footer=''+
                             '<img src="images/zhihu.jpg" class="img-circle" alt="知乎" title="知乎">'+
                         '</a>'+
                     '</li>'+
+                    '<li>'+
+                        '<a href="http://www.jq-school.com/">'+
+                            '<img src="images/jQuery-school.jpg" class="img-circle" alt="jQuery-School" title="jQuery-School">'+
+                        '</a>'+
+                    '</li>'+
                 '</ul>'+
             '</div>'+
         '</div>'+

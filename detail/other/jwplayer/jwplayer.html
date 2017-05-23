@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>flv mp4 jwplayer</title>
+</head>
+<script type="text/javascript" src="jwplayer.js"></script>
+</head>
+<body>
+<div id="jwplayer" style="background: transparent !important; margin:0 auto; width:400px; height:270px; overflow:hidden;">
+	<div id="player"></div>
+</div>
+<script type="text/javascript">
+	jwplayer("player").setup({
+	  skin: "glow.zip",
+	  stretching: "fill",
+	  flashplayer: "player.swf",
+	  image: "bkaovAYt-480.jpg",
+	  width: 400,
+	  height:270,
+	  levels: [{file: "http://www.union-dsn.com/upload/video.mp4"}]
+	});
+</script>
+</body>
+</html>
